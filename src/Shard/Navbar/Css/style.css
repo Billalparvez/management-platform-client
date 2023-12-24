@@ -1,0 +1,9 @@
+ul a {
+    margin-right: 20px;
+    font-weight: 500; 
+}
+.active {
+    color:#BB7B10;
+    text-decoration: underline;
+    
+}

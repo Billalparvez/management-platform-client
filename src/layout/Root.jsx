@@ -3,11 +3,12 @@ import Navbar from "../Shard/Navbar/Navbar";
 import Footer from "../Shard/Footer/Footer";
 
 const Root = () => {
+    const noHeader = location.pathname.includes('login') || location.pathname.includes('signup')
     return (
         <div>
-            <Navbar></Navbar>
+            {noHeader || <Navbar></Navbar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            {noHeader || <Footer></Footer>}
         </div>
     );
 };
