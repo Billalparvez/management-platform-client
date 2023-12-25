@@ -48,10 +48,10 @@ const Login = () => {
             </Helmet>
             <div className="hero-content flex-col lg:flex-row">
                 <div className="text-center lg:text-left">
-                    <img src="https://i.ibb.co/xJsNc8D/credit-card-concept-illustration-114360-98.jpg" alt="" />
+                    <img src="https://i.postimg.cc/ydcYwZVh/6300830.jpg" alt="" />
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
-                    <p className='text-[#BB7B10] font-bold text-center'>SignIn User</p>
+                    <p className='text-[#ebc934] font-bold text-center'>SignIn User</p>
                     <form onSubmit={handleSubmit(onSubmit)} className="card-body ">
                         <div className="form-control">
 
@@ -75,15 +75,15 @@ const Login = () => {
                         </div>
 
                         <div className="form-control ">
-                            <button className="btn bg-[#BB7B10] text-white rounded-full hover:bg-[#bc791c]  border-none">LOgin</button>
+                            <button className="btn bg-[#ebc934]  rounded-full hover:bg-[#ebcc34]  border-none">Login</button>
                         </div>
                     </form>
-                    <p className='text-center'>Have a New Account? <Link to={'/signUp'} className='text-[#BB7B10] font-bold'>registered</Link> </p>
+                    <p className='text-center'>Have a New Account? <Link to={'/signUp'} className='text-[#ebc934] font-bold'>registered</Link> </p>
                     <p className='text-center font-bold my-3'>Or sign up with</p>
                     <div className='flex gap-4 justify-center mb-5'>
-                        <a className='border-r border-b border-orange-500 p-5 rounded-2xl text-2xl '> <SiFacebook /> </a>
-                        <a onClick={handleGoogle} className='border-l border-r hover:border-b-2  border-orange-500 cursor-pointer  p-5 rounded-2xl text-2xl '> <FcGoogle /> </a>
-                        <a onClick={""} className='border-l border-b border-orange-500 cursor-pointer p-5 rounded-2xl text-2xl' ><AiFillGithub></AiFillGithub></a>
+                        <a className='border-r border-b-2 border-[#ebc934] p-5 rounded-2xl text-2xl '> <SiFacebook /> </a>
+                        <a onClick={handleGoogle} className='border-l-2 border-r-2 hover:border-b-2  border-[#ebc934] cursor-pointer  p-5 rounded-2xl text-2xl '> <FcGoogle /> </a>
+                        <a onClick={""} className='border-l border-b-2 border-[#ebc934] cursor-pointer p-5 rounded-2xl text-2xl' ><AiFillGithub></AiFillGithub></a>
                     </div>
                 </div>
             </div>

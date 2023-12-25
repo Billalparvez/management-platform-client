@@ -7,11 +7,15 @@ const Bannar = () => {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="">
-                    <h1 className="mb-5 text-5xl font-bold">Management <span className='text-[#BB7B10]'>Platform</span></h1>
-                    <p className="mb-5"> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <div className="join">
-                        <input className="input input-bordered join-item rounded-full" placeholder="Search" />
-                        <Link to='/login' className="btn join-item rounded-r-full border-none hover:bg-[#9d6321] text-white bg-[#BB7B10]">Let's Explore</Link>
+                    <h1 data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="2000" className="mb-5 text-5xl font-bold">Management <span className='text-[#ebc934]'>Platform</span></h1>
+                    <p className="mb-5" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="2000"> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <div data-aos="fade-right" data-aos-duration="3000" className="join ">
+                        <input className="w-[180px] md:w-[220px] input input-bordered join-item rounded-full" placeholder="Search" />
+                        <Link to='/login' className="btn join-item rounded-r-full border-none hover:bg-[#e1e129]  bg-[#ebc934]">Let's Explore</Link>
                     </div>
                 </div>
             </div>
